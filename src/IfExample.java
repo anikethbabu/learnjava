@@ -8,7 +8,7 @@ public class IfExample {
         int age = sc.nextInt();
 
         if (age < 18)
-            System.out.println("Sorry, you are NOT eligible to vote");
+            System.out.println("Sorry, you are NOT eligible to vote.  Come back when you are 18");
         else
             System.out.println("Congrats! You are eligible to vote");
     }
