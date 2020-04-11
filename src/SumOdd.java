@@ -11,7 +11,7 @@ public class SumOdd {
     }
 
     static int sumOdd(int start, int end) {
-        if (start > end || start < 0 ) {
+        if (start > end || start <  0 ) {
             System.out.println("You entered invalid numbers");
             return 0;
         }
