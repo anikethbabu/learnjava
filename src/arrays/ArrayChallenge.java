@@ -6,7 +6,10 @@ import java.util.Scanner;
 
 public class ArrayChallenge {
     public static void main(String[] args) {
-    printArray(sortIntegers(getIntegers(arrayLength())));
+        final int arrayLength = arrayLength();
+        final int[] integers = getIntegers(arrayLength);
+        final int[] array = sortIntegers(integers);
+        printArray(array);
     }
 
     public static int arrayLength() {
