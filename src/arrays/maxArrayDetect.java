@@ -4,7 +4,7 @@ public class maxArrayDetect {
     public static void main(String[] args) {
 
         final int[] array = {1, 5, 9, 3, 1};
-        System.out.println(maxNum(array));
+        System.out.println(minNum(array));
         System.out.println(sumArray(array));
 
     }
@@ -30,5 +30,18 @@ public class maxArrayDetect {
         }
         return sum;
     }
+    public static int minNum(int[] array) {
+        int min = array[0];
+
+        for (int i = 1; i < array.length; i++) {
+            if (min > array[i]) {
+                min = array[i];
+
+            }
+
+        }
+        return min;
+    }
+
 }
 
